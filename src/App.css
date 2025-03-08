@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    font-family: "Roboto Slab", serif;
+}
+    
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.appname {
+    font-size: large;
+    position: relative;
+    left: 212px;
+}
+
+.routes{
+    gap: 20px;
+    display: flex;
+    position: relative;
+    font-size: 18px;
+ 
+}
+.routes a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+
+}
+
+ .container{
+    padding-top: 100px;
+    margin: 34px;
+   
+    align-items: center;
+} 
+
+.grid{
+    display: grid;
+}
+
+.grid-2-col{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.mainsection{
+    background-color: blue;
+    margin: 0px 25px;
+}
+
+.rightcontainer img{
+    width: 65%;
+
+}
+
+.mainsection{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,78,240,1) 0%, rgba(214,195,222,1) 0%, rgba(184,142,218,1) 12%, rgba(164,115,223,1) 19%, rgba(167,98,227,1) 27%, rgba(114,0,228,1) 100%);
+   padding: 33px;
+}
+
+.leftcontainer{
+    width: 22rem;
+    /* justify-content: center; */
+    /* right: -151px; */
+    left: 100px;
+    position: relative;
+}
+
+.hero-subheading{
+    text-transform: uppercase;
+    font: menu;
+    font-weight: 700;
+
+}
+
+.hero-heading{
+    font-weight: 900;
+
+}
+
+.hero-para{
+    margin: 20px 0px;
+    color: whitesmoke;
+}
+
+.rightcontainer{
+    right: -82px;
+    position: relative;
+}
+
+.explorebtn{
+    padding: 10px 20px;
+    background-color: rgb(53, 56, 56);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
