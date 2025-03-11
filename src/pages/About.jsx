@@ -28,7 +28,7 @@ export const About = () => {
             <div className="card-container">
                 {products.map((product) => {
                     const isReadMore = readMore[product.id]; // Get the read-more state for the current product
-                    const maxLength = 100; // Set the maximum length for the description
+                    const maxLength = 50; // Set the maximum length for the description
 
                     return (
                         <div key={product.id} className="cardapi">

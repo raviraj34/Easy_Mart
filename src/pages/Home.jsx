@@ -1,10 +1,10 @@
 import Postapi from "../api/Postapi";
 import { Herosection } from "../components/Herosection";
-
+import { Whyus } from "../components/ui/Whyus";
 export const Home = () => {
     return (
         <div>
-            
+
             <Herosection />
             <Postapi />
             <div className="card grid grid-3-col">
@@ -38,50 +38,51 @@ export const Home = () => {
                     </div>
                 </div>
 
-             
+
             </div>
             <div className="extracard grid-4-col">
-                    <div class="div-policy grid-2-col">
-                        <div class="icons">
-                          
-                           <img className="dili" src="./img/delivery.png" alt="" srcset="" />
-                        </div>
-                        <div class="div-policy-text">
-                            <p>worldwide shipping</p>
-                            <p>order above $100</p>
-                        </div>
-                    </div>
+                <div class="div-policy grid-2-col">
+                    <div class="icons">
 
-                    <div class="div-policy grid-2-col">
-                        <div class="icons">
-                        <img src="./img/exchange.png" alt="" srcset="" />
-                        </div>
-                        <div class="div-policy-text">
-                            <p>Easy 30 Day Returns</p>
-                            <p>Back Returns in 7 Days</p>
-                        </div>
+                        <img className="dili" src="./img/delivery.png" alt="" srcset="" />
                     </div>
-
-                    <div class="div-policy grid-2-col">
-                        <div class="icons">
-                        <img src="./img/money.png" alt="" srcset="" />
-                        </div>
-                        <div class="div-policy-text">
-                            <p>money back guarantee</p>
-                            <p>guarantee with in 30-Days</p>
-                        </div>
-                    </div>
-
-                    <div class="div-policy  grid-2-col">
-                        <div class="icons">
-                        <img src="./img/support.png" alt="" srcset="" />
-                        </div>
-                        <div class="div-policy-text">
-                            <p>Easy Online Support</p>
-                            <p>24/7 Any time support</p>
-                        </div>
+                    <div class="div-policy-text">
+                        <p>worldwide shipping</p>
+                        <p>order above $100</p>
                     </div>
                 </div>
+
+                <div class="div-policy grid-2-col">
+                    <div class="icons">
+                        <img src="./img/exchange.png" alt="" srcset="" />
+                    </div>
+                    <div class="div-policy-text">
+                        <p>Easy 30 Day Returns</p>
+                        <p>Back Returns in 7 Days</p>
+                    </div>
+                </div>
+
+                <div class="div-policy grid-2-col">
+                    <div class="icons">
+                        <img src="./img/money.png" alt="" srcset="" />
+                    </div>
+                    <div class="div-policy-text">
+                        <p>money back guarantee</p>
+                        <p>guarantee with in 30-Days</p>
+                    </div>
+                </div>
+
+                <div class="div-policy  grid-2-col">
+                    <div class="icons">
+                        <img src="./img/support.png" alt="" srcset="" />
+                    </div>
+                    <div class="div-policy-text">
+                        <p>Easy Online Support</p>
+                        <p>24/7 Any time support</p>
+                    </div>
+                </div>
+            </div>
+            <Whyus />
         </div>
     );
 };

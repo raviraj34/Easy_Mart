@@ -1,24 +1,23 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap');
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
 
 }
 
 
-body{
+body {
     font-family: "Roboto Slab", serif;
-    
-   
+
+
 }
-    
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,52 +31,53 @@ body{
     left: 212px;
 }
 
-.routes{
+.routes {
     gap: 20px;
     display: flex;
     position: relative;
     font-size: 18px;
- 
+
 }
-.routes a{
+
+.routes a {
     text-decoration: none;
     color: rgb(5, 5, 5);
 
 }
 
- .container{
+.container {
     padding-top: 100px;
     margin: 34px;
-   
-    align-items: center;
-} 
 
-.grid{
+    align-items: center;
+}
+
+.grid {
     display: grid;
 }
 
-.grid-2-col{
-    grid-template-columns: repeat(2,1fr);
+.grid-2-col {
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.mainsection{
+.mainsection {
     background-color: blue;
     margin: 0px 25px;
- 
+
 }
 
-.rightcontainer img{
+.rightcontainer img {
     width: 65%;
 
 }
 
-.mainsection{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,78,240,1) 0%, rgba(214,195,222,1) 0%, rgba(184,142,218,1) 12%, rgba(164,115,223,1) 19%, rgba(167,98,227,1) 27%, rgba(114,0,228,1) 100%);
-   padding: 33px;
+.mainsection {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(159, 78, 240, 1) 0%, rgba(214, 195, 222, 1) 0%, rgba(184, 142, 218, 1) 12%, rgba(164, 115, 223, 1) 19%, rgba(167, 98, 227, 1) 27%, rgba(114, 0, 228, 1) 100%);
+    padding: 33px;
 }
 
-.leftcontainer{
+.leftcontainer {
     width: 29rem;
     /* justify-content: center; */
     /* right: -151px; */
@@ -86,7 +86,7 @@ body{
     bottom: 40px;
 }
 
-.hero-subheading{
+.hero-subheading {
     text-transform: uppercase;
     font: menu;
     font-weight: 700;
@@ -94,164 +94,162 @@ body{
 
 }
 
-.hero-heading{
+.hero-heading {
     font-weight: 900;
     color: rgb(29, 28, 28);
 
 }
 
-.hero-para{
+.hero-para {
     margin: 20px 0px;
     color: rgb(255, 251, 225);
 }
 
-.rightcontainer{
+.rightcontainer {
     right: -82px;
     position: relative;
     bottom: 40px;
     right: -9px;
- 
+
 }
 
- .boton-elegante {
-        padding: 15px 30px;
-        border: 2px solid #2c2c2c;
-        background-color: #1a1a1a;
-        color: #ffffff;
-        font-size: 1.2rem;
-        cursor: pointer;
-        border-radius: 30px;
-        transition: all 0.4s ease;
-        outline: none;
-        position: relative;
-        overflow: hidden;
-        font-weight: bold;
-      }
-      
-      .boton-elegante::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: radial-gradient(
-          circle,
-          rgba(255, 255, 255, 0.25) 0%,
-          rgba(255, 255, 255, 0) 70%
-        );
-        transform: scale(0);
-        transition: transform 0.5s ease;
-      }
-      
-      .boton-elegante:hover::after {
-        transform: scale(4);
-      }
-      
-      .boton-elegante:hover {
-        border-color: #666666;
-        background: #292929;
-      }
-      
+.boton-elegante {
+    padding: 15px 30px;
+    border: 2px solid #2c2c2c;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+}
 
-.mainsection svg{
+.boton-elegante::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle,
+            rgba(255, 255, 255, 0.25) 0%,
+            rgba(255, 255, 255, 0) 70%);
+    transform: scale(0);
+    transition: transform 0.5s ease;
+}
+
+.boton-elegante:hover::after {
+    transform: scale(4);
+}
+
+.boton-elegante:hover {
+    border-color: #666666;
+    background: #292929;
+}
+
+
+.mainsection svg {
     width: 86rem;
     left: -34px;
     position: relative;
     bottom: 32px;
 }
 
-.rightcontainer img{
+.rightcontainer img {
     width: 33rem;
 }
 
-.grid-3-col{
-    grid-template-columns: repeat(3,1fr);
+.grid-3-col {
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.card-width{
+.card-width {
     width: 165px;
 }
-.card-width2{
+
+.card-width2 {
     width: 140px;
 }
 
-.cardcontainer{
+.cardcontainer {
     display: flex;
 }
 
-.card{
+.card {
     margin-top: 54px;
     margin-right: 46px;
-   margin-left: 143px;
-   background-color: rgb(250, 250, 250);
+    margin-left: 143px;
+    background-color: rgb(250, 250, 250);
 }
 
-.left a{
+.left a {
     text-decoration: none;
     color: rgb(5, 5, 5);
 }
 
-.right a{
+.right a {
     text-decoration: none;
     color: rgb(5, 5, 5);
 }
 
-.grid-4-col{
-    grid-template-columns: repeat(4,1fr);
+.grid-4-col {
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .extracard {
     display: flex;
     margin-top: 54px;
-  justify-content: center;
-  gap: 75px;
-   background-color: rgb(250, 250, 250);
+    justify-content: center;
+    gap: 75px;
+    background-color: rgb(250, 250, 250);
 }
 
-.div-policy{
+.div-policy {
     display: flex;
     gap: 12px;
 }
 
-.dili{
+.dili {
     width: 23px;
 
 }
 
-.div-policy img{
+.div-policy img {
     position: relative;
     top: 9px;
 }
 
-.cardapi{
+.cardapi {
     width: 11%;
     display: flex
-    
 }
 
-.cardapi img{
-    width: 40px;
-    height: 40px;
+.cardapi img {
+    width: 120px;
+    height: 120px;
 }
 
-.about{
+.about {
     max-width: 140rem;
-    
+
 }
 
-.card-container{
+.card-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 298px
+    gap: 162px
 }
 
-.about{
-    padding: 2rem 9rem;
+.about {
+    padding: 2rem 13rem;
     margin: auto;
 }
 
-.cardapi{
+.cardapi {
     flex-direction: column;
 }
 
@@ -267,4 +265,118 @@ body{
 
 .cardapi button:hover {
     background-color: #0056b3;
+}
+
+.cardapi{
+
+    --bg: #e8e8e8;
+    --contrast: #e2e0e0;
+    --grey: #93a1a1;
+    position: relative;
+    padding: 9px;
+    background-color: var(--bg);
+    border-radius: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.cardapi {
+    
+    pointer-events: none;
+    
+}
+
+.cardapi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 228px;
+    height: 368px;
+    background-color:white;
+    border-radius: 8px;
+    /* Content style */
+    gap: 10px;
+    font-weight: 900;
+    color: #0a0909;
+    text-align: center;
+    font-family: monospace;
+}
+
+.whyus-img {
+    width: 100px;
+    
+}
+
+
+.choose-center-div {
+    position: relative; /* To position the circle relative to this container */
+    display: inline-block; /* Ensures the container wraps around the image */
+}
+
+.choose-center-div::before {
+    content: '';
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    width: 21rem; /* Set the diameter of the circle */
+    height: 21rem; /* Set the diameter of the circle */
+    background-color: #b59dff; /* Circle color */
+    border-radius: 50%; /* Makes it a circle */
+    transform: translate(-50%, -50%); /* Center the circle */
+    z-index: 1; /* Ensure the circle is behind the image */
+}
+
+.whyus-img {
+    position: relative; /* To ensure the image is above the circle */
+    width: 17rem;
+    top: 62px;
+    z-index: 2; /* Ensure the image is above the circle */
+}
+
+.choose-left-div{
+    width: 285px;
+}
+.choose-right-div{
+    width: 285px;
+}
+
+.section-why--choose{
+    max-width: 140rem;
+    margin: auto;
+    padding: 2rem 13rem
+  
+   
+}
+.containerwhy{
+    gap: 65px;
+}
+.section-why--choose{
+    font-family: serif;
+    
+}
+
+
+
+.common-text--highlight{
+    position: relative;
+left: 147px;
+}
+.section-common--title{
+   position: relative;
+left: 127px;
+}
+.why-choose--div{
+    gap: 10px;
+    display: flex
+
+}
+
+.why-choose--div{
+    flex-direction: column;
+}
+
+.why-choose--div p{
+    color: #6b6a6a
 }
