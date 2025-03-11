@@ -1,10 +1,12 @@
+import Postapi from "../api/Postapi";
 import { Herosection } from "../components/Herosection";
 
 export const Home = () => {
     return (
         <div>
-
+            
             <Herosection />
+            <Postapi />
             <div className="card grid grid-3-col">
                 <div className="cardcontainer grid-2-col">
                     <div className="left">

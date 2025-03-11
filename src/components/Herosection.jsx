@@ -22,7 +22,7 @@ export const Herosection = () => {
 
                     </div>
                     <div className="rightcontainer">
-                        <img src="/img/heroSection.svg" alt="" srcset="" />
+                        <img src="/img/heroSection.svg" alt=""  />
                     </div>
                 </div>
 
