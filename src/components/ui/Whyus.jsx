@@ -12,7 +12,7 @@ export const Whyus = () => {
             <div class="containerwhy grid grid-3-col">
                 <div class="choose-left-div text-align--right">
                     <div class="why-choose--div" data-aos="zoom-in-up" data-aos-delay="0">
-                        <p class="common-text--highlight">1</p>
+                        <p class="common-text--highlight"><img src="./img/Number-One.png" alt="" srcset="" /></p>
                         <h3 class="section-common--title">Wide Selection</h3>
                         <p>
                             Thapa Store offers a diverse range of gadgets, from smartphones to
@@ -26,7 +26,7 @@ export const Whyus = () => {
                         data-aos="zoom-in-up"
                         data-aos-delay="300"
                     >
-                        <p class="common-text--highlight">2</p>
+                        <p class="common-text--highlight"><img src="./img/Number-Two.png" alt="" srcset="" /></p>
                         <h3 class="section-common--title">Quality Assurance</h3>
                         <p>
                             Every gadget at Thapa Store undergoes rigorous quality checks,
@@ -40,7 +40,7 @@ export const Whyus = () => {
                         data-aos="zoom-in-up"
                         data-aos-delay="600"
                     >
-                        <p class="common-text--highlight">3</p>
+                        <p class="common-text--highlight"><img src="./img/Number-Three.png" alt="" srcset="" /></p>
                         <h3 class="section-common--title">Competitive Prices</h3>
                         <p>
                             Enjoy great value with Thapa Store's competitive prices on
@@ -61,7 +61,7 @@ export const Whyus = () => {
                         data-aos="zoom-in-up"
                         data-aos-delay="0"
                     >
-                        <p class="common-text--highlight-odd">4</p>
+                        <p class="common-text--highlight-odd"><img src="./img/Number-Four.png" alt="" srcset="" /></p>
                         <h3 class="section-common--title-odd">Expert Guidance</h3>
                         <p>
                             Our knowledgeable staff provides expert guidance, helping you
@@ -75,7 +75,7 @@ export const Whyus = () => {
                         data-aos="zoom-in-up"
                         data-aos-delay="300"
                     >
-                        <p class="common-text--highlight-odd">5</p>
+                        <p class="common-text--highlight-odd"><img src="./img/Number-Five.png" alt="" srcset="" /></p>
                         <h3 class="section-common--title-odd">Convenient Shopping</h3>
                         <p>
                             With Thapa Store, shopping for gadgets is easy and convenient. Our
@@ -90,7 +90,7 @@ export const Whyus = () => {
                         data-aos="zoom-in-up"
                         data-aos-delay="600"
                     >
-                        <p class="common-text--highlight-odd">6</p>
+                        <p class="common-text--highlight-odd"><img src="./img/Number-Six.png" alt="" srcset="" /></p>
                         <h3 class="section-common--title-odd">Excellent Service</h3>
                         <p>
                             Thapa Store is committed to providing excellent service to our

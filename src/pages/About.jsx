@@ -18,6 +18,7 @@ export const About = () => {
         fetchProducts();
     }, []);
 
+
     const toggleReadMore = (id) => {
         setReadMore((prev) => ({ ...prev, [id]: !prev[id] }));
     };

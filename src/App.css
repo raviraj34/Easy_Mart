@@ -331,7 +331,7 @@ body {
 .whyus-img {
     position: relative; /* To ensure the image is above the circle */
     width: 17rem;
-    top: 62px;
+    top: 140px;
     z-index: 2; /* Ensure the image is above the circle */
 }
 
@@ -353,7 +353,7 @@ body {
     gap: 65px;
 }
 .section-why--choose{
-    font-family: serif;
+    font-family: "Roboto Slab", serif;
     
 }
 
@@ -379,4 +379,18 @@ left: 127px;
 
 .why-choose--div p{
     color: #6b6a6a
+}
+
+.common-text--highlight-odd img{
+  width: 20px;
+  padding-top: 12px;
+  
+}
+
+
+.common-text--highlight img{
+    width: 20px;
+    position: relative;
+  left: 90px;
+
 }
