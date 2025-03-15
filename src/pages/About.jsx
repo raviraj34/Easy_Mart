@@ -3,7 +3,11 @@ import React, { useEffect, useState } from 'react';
 export const About = () => {
     const [products, setProducts] = useState([]);
     const [readMore, setReadMore] = useState({}); // State to track which products are expanded
+    const [isExpanded, setisExpanded] = useState(false);
 
+    const toggleCardHeight = ()=>{
+        setisExpanded(!isExpanded);
+    };
     useEffect(() => {
         const fetchProducts = async () => {
             try {
@@ -32,7 +36,7 @@ export const About = () => {
                     const maxLength = 50; // Set the maximum length for the description
 
                     return (
-                        <div key={product.id} className="cardapi">
+                        <div key={product.id} className="cardapi" >
                             <img src={product.image} alt={product.title} />
                             <h2>{product.title}</h2>
                             <p>
@@ -42,6 +46,12 @@ export const About = () => {
                                 {isReadMore ? 'Read Less' : 'Read More'}
                             </button>
                             <p>Price: ${product.price}</p>
+                            <div className="addtocart">
+                            <button class="buttonCart">
+                                 <span class="button__text">Add To Cart</span>
+                                     <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+                                </button>
+                                </div>
                         </div>
                     );
                 })}
