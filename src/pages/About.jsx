@@ -30,13 +30,13 @@ export const About = () => {
     return (
         <div className='about'>
             <h1>About Us</h1>
-            <div className="card-container">
+            <div className="card-container" >
                 {products.map((product) => {
                     const isReadMore = readMore[product.id]; // Get the read-more state for the current product
                     const maxLength = 50; // Set the maximum length for the description
 
                     return (
-                        <div key={product.id} className="cardapi" >
+                        <div key={product.id} className="cardapi" id='card' >
                             <img src={product.image} alt={product.title} />
                             <h2>{product.title}</h2>
                             <p>
@@ -46,6 +46,11 @@ export const About = () => {
                                 {isReadMore ? 'Read Less' : 'Read More'}
                             </button>
                             <p>Price: ${product.price}</p>
+                            <div className="quantity  grid-3-col">
+                                <button className="quantity-btn-neg">-</button>
+                                <p>1</p>
+                                <button className="quantity-btn-pos">+</button>
+                            </div>
                             <div className="addtocart">
                             <button class="buttonCart">
                                  <span class="button__text">Add To Cart</span>

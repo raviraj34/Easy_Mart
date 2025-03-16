@@ -476,4 +476,15 @@ left: 127px;
   .buttonCart:active {
     border: 1px solid #2e8644;
   }
+
+  .quantity{
+   display: grid;
+
+
+  }
+
+  .quantity p{
+    align-items: center;
+ margin-top: 15px;
+  }
   
